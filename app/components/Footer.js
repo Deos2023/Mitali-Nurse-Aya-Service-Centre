@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Footer() {
   return (
@@ -19,12 +20,12 @@ export default function Footer() {
               Established in 2025, we provide compassionate and professional home care services including nursing, child care, and household assistance.
             </p>
             <div className="flex gap-4">
-              <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-800 p-2 rounded-full transition">
+              <Link href="#" target="_blank" className="bg-blue-600 hover:bg-blue-800 p-2 rounded-full transition">
                 <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" target="_blank" className="bg-blue-600 hover:bg-blue-800 p-2 rounded-full transition">
+              </Link>
+              <Link href="#" target="_blank" className="bg-blue-600 hover:bg-blue-800 p-2 rounded-full transition">
                 <Instagram className="w-5 h-5" />
-              </a>
+              </Link>
             </div>
           </motion.div>
 

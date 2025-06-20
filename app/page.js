@@ -402,7 +402,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="mb-6 italic">
-                "The nurse provided by Mitali was extremely professional and caring. She took excellent care of my elderly mother during her recovery."
+                &quot;The nurse provided by Mitali was extremely professional and caring. She took excellent care of my elderly mother during her recovery.&quot;
               </p>
               <div className="flex items-center">
                 <div className="bg-blue-700 w-10 h-10 rounded-full mr-4"></div>
@@ -428,7 +428,7 @@ export default function HomePage() {
                 ))}
               </div>
               <p className="mb-6 italic">
-                "Their child care services are exceptional. The aya they sent was patient and loving with our toddler. Highly recommended!"
+                &quot;Their child care services are exceptional. The aya they sent was patient and loving with our toddler. Highly recommended!&quot;
               </p>
               <div className="flex items-center">
                 <div className="bg-blue-700 w-10 h-10 rounded-full mr-4"></div>
@@ -457,7 +457,7 @@ export default function HomePage() {
                 </svg>
               </div>
               <p className="mb-6 italic">
-                "The cooking service has been a lifesaver for our busy family. The food is delicious and prepared with care."
+                &quot;The cooking service has been a lifesaver for our busy family. The food is delicious and prepared with care.&quot;
               </p>
               <div className="flex items-center">
                 <div className="bg-blue-700 w-10 h-10 rounded-full mr-4"></div>
@@ -503,7 +503,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-xl text-blue-200 mb-8"
           >
-            Contact us today to discuss your requirements and we'll provide the perfect caregiver for your needs.
+            Contact us today to discuss your requirements and we&apos;ll provide the perfect caregiver for your needs.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, scale: 0.8 }}

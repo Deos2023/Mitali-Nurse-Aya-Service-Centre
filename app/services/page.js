@@ -124,7 +124,7 @@ export default function ServicesPage() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl text-blue-100 max-w-3xl mx-auto mb-8"
           >
-            Discover our range of professional home care services designed to meet your family's unique needs
+            Discover our range of professional home care services designed to meet your family&apos;s unique needs
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -347,7 +347,7 @@ export default function ServicesPage() {
             viewport={{ once: true }}
             className="text-xl text-blue-200 mb-8"
           >
-            Contact us today to discuss your requirements and we'll provide the perfect solution
+            Contact us today to discuss your requirements and we&apos;ll provide the perfect solution
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

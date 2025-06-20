@@ -32,7 +32,7 @@ export default function AboutPage() {
     {
       icon: <HeartPulse className="w-8 h-8 text-blue-600" />,
       title: "Compassion",
-      description: "We care deeply about every client's wellbeing"
+      description: "We care deeply about every client&apos;s wellbeing"
     },
     {
       icon: <ShieldCheck className="w-8 h-8 text-blue-600" />,
@@ -183,7 +183,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold text-blue-800">Our Mission</h3>
               </div>
               <p className="text-gray-700">
-                To provide compassionate, reliable, and professional home care services that enhance the quality of life for our clients and peace of mind for their families. We are committed to delivering exceptional care tailored to each individual's needs.
+                To provide compassionate, reliable, and professional home care services that enhance the quality of life for our clients and peace of mind for their families. We are committed to delivering exceptional care tailored to each individual&apos;s needs.
               </p>
             </motion.div>
             
@@ -201,7 +201,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold text-blue-800">Our Vision</h3>
               </div>
               <p className="text-gray-700">
-                To become Kolkata's most trusted home care provider, recognized for our exceptional service standards, compassionate caregivers, and innovative approaches to personalized home care solutions.
+                To become Kolkata&apos;s most trusted home care provider, recognized for our exceptional service standards, compassionate caregivers, and innovative approaches to personalized home care solutions.
               </p>
             </motion.div>
           </div>
@@ -377,7 +377,7 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-xl text-blue-200 mb-8"
           >
-            We're always looking for compassionate caregivers to join our team
+            We&apos;re always looking for compassionate caregivers to join our team
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
