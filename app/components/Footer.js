@@ -55,10 +55,10 @@ export default function Footer() {
           >
             <h3 className="text-xl font-bold mb-6 text-white">Quick Links</h3>
             <ul className="space-y-3">
-              <li><a href="/" className="text-blue-100 hover:text-white transition">Home</a></li>
-              <li><a href="/about" className="text-blue-100 hover:text-white transition">About Us</a></li>
-              <li><a href="/services" className="text-blue-100 hover:text-white transition">Services</a></li>
-              <li><a href="/contact" className="text-blue-100 hover:text-white transition">Contact</a></li>
+              <li><Link href="/" className="text-blue-100 hover:text-white transition">Home</Link></li>
+              <li><Link href="/about" className="text-blue-100 hover:text-white transition">About Us</Link></li>
+              <li><Link href="/services" className="text-blue-100 hover:text-white transition">Services</Link></li>
+              <li><Link href="/contact" className="text-blue-100 hover:text-white transition">Contact</Link></li>
             </ul>
           </motion.div>
 
