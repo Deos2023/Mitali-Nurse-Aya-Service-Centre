@@ -302,61 +302,45 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-20 px-6 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Team</h2>
-            <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-              Meet the dedicated professionals behind Mitali Nurse & Aya
-            </p>
-          </motion.div>
-          
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Anil Sarkar",
-                role: "Founder & Director",
-                bio: "With over 10 years in healthcare management, Anil established Mitali to provide quality home care services."
-              },
-              {
-                name: "Priya Chatterjee",
-                role: "Head Nurse",
-                bio: "Registered nurse with 8 years experience in geriatric and post-operative care."
-              },
-              {
-                name: "Rahul Banerjee",
-                role: "Operations Manager",
-                bio: "Ensures smooth service delivery and client satisfaction."
-              }
-            ].map((member, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                className="bg-blue-50 rounded-xl overflow-hidden shadow-md"
-              >
-                <div className="bg-gray-300 h-48 flex items-center justify-center text-gray-600">
-                  Team Member Photo
-                </div>
-                <div className="p-6">
-                  <h3 className="text-xl font-bold text-blue-900 mb-1">{member.name}</h3>
-                  <p className="text-blue-700 font-medium mb-3">{member.role}</p>
-                  <p className="text-gray-700">{member.bio}</p>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Gallery Section */}
+<section className="py-20 px-6 bg-white">
+  <div className="max-w-6xl mx-auto">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      viewport={{ once: true }}
+      className="text-center mb-16"
+    >
+      <h2 className="text-3xl font-bold text-blue-900 mb-4">Our Gallery</h2>
+      <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+        Glimpses of our dedicated team in action and heartwarming moments with our clients
+      </p>
+    </motion.div>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      {[1, 2, 3, 4].map((num) => (
+        <motion.div
+          key={num}
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5, delay: num * 0.1 }}
+          viewport={{ once: true }}
+          className="overflow-hidden rounded-xl shadow-md"
+        >
+          <Image
+            src={`/img/1 (${num}).jpeg`} // Ensure these images are placed in /public/img/
+            alt={`Gallery image ${num}`}
+            width={400}
+            height={300}
+            className="w-full h-60 object-cover hover:scale-105 transition-transform duration-300"
+          />
+        </motion.div>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* CTA Section */}
       <section className="py-20 px-6 bg-blue-900 text-white">

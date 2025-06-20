@@ -28,11 +28,11 @@ const ScrollToTopButton = () => {
   };
 
   const handleCall = () => {
-    window.location.href = 'tel:+918582879403';
+    window.location.href = 'tel:+916291041613 ';
   };
 
   const handleWhatsApp = () => {
-    const phoneNumber = '918582879403'; // without "+" and special characters
+    const phoneNumber = '916291041613 '; // without "+" and special characters
     const message = 'Hi, I would like to inquire about your services.';
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');

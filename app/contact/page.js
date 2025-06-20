@@ -47,7 +47,7 @@ export default function ContactPage() {
   };
 
   return (
-    <main className="pb-16 bg-white">
+    <main className="pb-16 bg-white text-neutral-700">
       {/* Hero Section */}
       <section className="relative py-20 px-6 bg-gradient-to-r from-blue-900 to-blue-700 text-white overflow-hidden">
         <motion.div
